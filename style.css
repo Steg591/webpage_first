@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.header_top_left {
+    max-height: 50px;
+}
+
+.logo_image {
+    height: 100%;
+}
+
+.header_top_right {
+    display: flex;
+    gap: 20px;
+}
+
+.header_bottom {
+    display: flex;
+    justify-content: space-between;
+    max-height: 200px;
+    padding: 50px;
+}
+
+.header_bottom_left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.header_hero_text {
+    font-size: 48px;
+    font-weight: 800;;
+}
+
+.header_secondary_text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header_bottom_right {
+    display: flex;
+    flex: 1; /* so the bottom left and bottom right blocks take up equal space */
+    overflow: hidden;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header_image {
+    height: 100%;
+}
+
+.card_section {
+    padding: 25px;
+}
+
+.card_section_title {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.card_info {
+    font-size: 18px;
+    text-align: center;    
+}
+
+.card_block {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    max-width: 100px;
+}
+
+.card_image {
+    width: 100px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.testimonials {
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+.testimonials_quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.testimonials_person {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: right;
+}
+
+.sign_up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: #3882F6;
+    color: white;
+    box-sizing: border-box; /* don't think I need this? */
+    min-height: 125px;
+    margin: 50px 100px;
+}
+
+.sign_up_text {
+    display: block;
+}
+
+.sign_up_main_text {
+    font-size: larger;
+    margin: 0px;
+}
+
+.sign_up_sub_text {
+    font-size: small;
+    margin: 0px;
+}
+
+.header,
+.card_section,
+.testimonials {
+    min-height: 250px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+}
+
+button {
+    width: 10%;
+    padding: 10px;
+    background-color: #3882F6;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
